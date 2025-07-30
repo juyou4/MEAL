@@ -1,5 +1,3 @@
-# MEAL: Multi-Model Ensemble via Adversarial Learning
-
 This is the official `PyTorch` implementation for paper:
 
 **[MEAL: Multi-Model Ensemble via Adversarial Learning](https://arxiv.org/abs/1812.02425)** (AAAI 2019, **Oral**).
@@ -24,7 +22,7 @@ If you find this helps your research, please cite:
 - download pre-trained teachers (on CIFAR-10):
 ```bash
 sh ./scripts/download_pretrained_models.sh
-``` 
+```
 (You can also manually download them [here](https://drive.google.com/open?id=12bVZFoFFAYYTGGXzMBDnnfwD1lJBxZY9).)
 - for single MEAL like `teacher: vgg, student: vgg`:
 ```bash
